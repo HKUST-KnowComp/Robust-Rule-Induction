@@ -5,7 +5,7 @@ Source code and data for paper "Patterns Over Principles: The Fragility of Induc
 
 Robust Rule Induction is a task for evaluating whether a large language model (LLM) can learn the latent functions from input-output pairs while maintaining consistent reasoning performance under noisy observations. The task is designed to generate the rule in the form of a Python function, which will be evaluated against a set of test cases. The general goal is to assess whether the LLM really understands the underlying function or simply memorizes the patterns even if the model solves the original task.
 
-![overview](images\overview.png)
+![overview](images/overview.png)
 
 ## Data
 All data is available in the `datasets` directory. Each instance consists of 10 normal (noise-free) input-output pairs, 5 noisy input-output pairs, and a test set of 10 input-output pairs. We also provide the generation code in the `tasks` directory to create the datasets.
